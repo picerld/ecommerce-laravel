@@ -1,19 +1,23 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
+# Direktori storage
+/storage/*
+
+# File konfigurasi lingkungan
 .env
-.env.backup
-.env.production
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
-npm-debug.log
-yarn-error.log
-/.fleet
-/.idea
-/.vscode
+
+# Direktori vendor
+/vendor/
+
+# Direktori node_modules jika Anda menggunakan npm atau Yarn
+/node_modules/
+
+# File log dan file cache
+*.log
+*.cache
+
+# File sementara
+*.swp
+
+# File konfigurasi editor
+.DS_Store
+.vscode/
+.idea/
